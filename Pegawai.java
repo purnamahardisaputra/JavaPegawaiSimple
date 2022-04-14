@@ -18,8 +18,7 @@ public class Pegawai {
     private int nip;
     private String nama, alamat;
     private int jumlahLembur;
-    private double gajiPokok, totalGaji, gaji;
-    float lemburan;
+    private double gajiPokok, totalGaji;
     
     public Pegawai(){
         

@@ -12,7 +12,7 @@ package com.purnamahardisaputra.pertemuan3.unguided;
 
 //PURNAMA HARDI SAPUTRA
 //20102123
-//S1IF-08 M
+//S1IF-08-M
 public class Pegawai {
     
     private int nip;
@@ -81,19 +81,19 @@ public class Pegawai {
         System.out.println("NIP Pegawai : " + getNip());
         System.out.println("Nama Pegawai : " + getNama());
         System.out.println("Alamat Pegawai : " + getAlamat());
-        System.out.println("Jumlah Hari Lembur : " + getJumlahLembur());
-        System.out.println("Gaji Pokok : " + getGajiPokok());
-        System.out.println("Total Gaji: " + getTotalGaji());
+        System.out.println("Jumlah Hari Lembur : " + getJumlahLembur() + " Hari");
+        System.out.println("Gaji Pokok : Rp." + getGajiPokok());
+        System.out.println("Total Gaji: Rp." + getTotalGaji());
     }
     
     public static void main(String[] args) {
         Pegawai pegawai = new Pegawai();
         pegawai.setNip(20102123);
         pegawai.setNama("Purnama Hardi Saputra");
-        pegawai.setAlamat("Jln. Bank, Papua Barat");
+        pegawai.setAlamat("Jln. Bank, Purwokerto Selatan, Banyumas");
         pegawai.setJumlahLembur(10);
-        pegawai.setGajiPokok(1000000);
-        pegawai.setTotal(10, 1000000);
+        pegawai.setGajiPokok(5000000);
+        pegawai.setTotal(10, 5000000);
         pegawai.tampil();
     }
     
